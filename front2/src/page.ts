@@ -55,7 +55,7 @@ async function loadComic(): Promise<void> {
       container.appendChild(date);
       container.appendChild(altText);
     } catch (error) {
-      console.error('Ошибка:', error);
+      console.error('Error:', error);
       document.getElementById('comic-container')!.textContent = 'Ошибка';
     }
 }
